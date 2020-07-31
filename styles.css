@@ -1,0 +1,25 @@
+body {
+  color: black;
+  font-weight: bolder;
+  margin-top: 20%;
+  background-image: url("meat.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+
+div {
+  line-height: 2;
+  padding: 2%;
+  display: inline-block;
+  background-color: green;
+}
+
+h1, p {
+display: inline;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
