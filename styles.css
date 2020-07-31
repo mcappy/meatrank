@@ -1,9 +1,8 @@
 body {
-  color: black;
+  color: green;
   font-weight: bolder;
   margin-top: 20%;
-  background-image: url("meat.jpg");
-  background-repeat: no-repeat;
+  background-color: #800000;
   background-position: center center;
   text-align: center;
 }
@@ -12,7 +11,7 @@ div {
   line-height: 2;
   padding: 2%;
   display: inline-block;
-  background-color: green;
+  background-color: black;
 }
 
 h1, p {
@@ -22,4 +21,9 @@ display: inline;
 a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
+}
+
+img {
+  width: 200px;
+  height: 200px;
 }
